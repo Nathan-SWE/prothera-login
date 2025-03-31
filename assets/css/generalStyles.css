@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+}
+
+:root {
+  /* color pallet */
+  --brand-color: #008f3b;
+  --title-color: #023047;
+  --text-default-color: #000;
+  --text-btn-color: #fff;
+  --focus-color: #b5d8c3;
+  /* --shadowBox-color: #C7C7C7; */
+
+  /* font styles */
+  --main-font: "Roboto", sans-serif;
+}
