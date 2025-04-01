@@ -55,3 +55,7 @@ prothera/
 ## 🤝 Contribuição
 
 Sinta-se à vontade para contribuir! Basta **forkar** o repositório, criar uma nova branch e enviar um **pull request**. Sugestões e melhorias são sempre bem-vindas! 🚀
+
+## 📜 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
