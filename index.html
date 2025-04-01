@@ -19,35 +19,42 @@
     />
   </head>
   <body>
-    <main>
-      <section class="login-component">
+    <div class="triangle-topleft" aria-hidden="true"></div>
+
+    <section class="login-component">
+      <div class="login-component_header">
         <h1>Prothera</h1>
-        <p>Informe seus dados de acesso nos campos abaixo.</p>
-        <form action="#">
-          <label for="e-mail"
-            >E-mail
-            <input
-              type="email"
-              name=""
-              id="e-mail"
-              placeholder="Digite seu e-mail."
-              required
-            />
-          </label>
-          <label for="password"
-            >Senha
-            <input
-              type="password"
-              name=""
-              id="password"
-              placeholder="Digite sua senha."
-              required
-            />
-          </label>
-          <a href="#">Esqueci minha senha</a>
+        <p>Informe seus dados de acesso nos <span>campos abaixo.</span></p>
+      </div>
+
+      <form action="#">
+        <fieldset class="login-component_inputs">
+          <label for="e-mail">E-mail </label>
+          <input
+            type="email"
+            name="email"
+            id="e-mail"
+            placeholder="Digite seu e-mail."
+            required
+          />
+
+          <label for="password">Senha </label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Digite sua senha."
+            autocomplete="new-password"
+            required
+          />
+        </fieldset>
+
+        <a href="#">Esqueci minha senha</a>
+
+        <fieldset class="login-component_submit">
           <input type="submit" value="Acessar" />
-        </form>
-      </section>
-    </main>
+        </fieldset>
+      </form>
+    </section>
   </body>
 </html>

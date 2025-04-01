@@ -133,3 +133,16 @@ form {
     filter: brightness(1.1);
   }
 }
+
+@media screen and (min-width: 481px) {
+  .login-component {
+    margin: 5vh auto;
+    width: 400px;
+  }
+}
+
+@media screen and (max-height: 592px) {
+  form {
+    height: 288px;
+  }
+}
