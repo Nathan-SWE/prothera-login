@@ -1,3 +1,8 @@
+![Status](https://img.shields.io/badge/em%20Produção-black?style=for-the-badge&label=status&labelColor=000&color=00b140)&nbsp;
+![GitHub repo size](https://img.shields.io/github/repo-size/Nathan-SWE/prothera-login?style=for-the-badge)&nbsp;
+![GitHub language count](https://img.shields.io/github/languages/count/Nathan-SWE/prothera-login?style=for-the-badge)&nbsp;
+![GitHub forks](https://img.shields.io/github/forks/Nathan-SWE/prothera-login?style=for-the-badge)&nbsp;
+
 # Prothera - Página de Login
 
 Este é um projeto de página de login acessível e responsiva para o sistema **Prothera**. O objetivo é garantir uma experiência fluida para todos os usuários, incluindo aqueles com necessidades especiais de acessibilidade.
@@ -7,9 +12,11 @@ Este é um projeto de página de login acessível e responsiva para o sistema **
 - **HTML5**: Estruturação do conteúdo.
 - **CSS3**: Estilização e responsividade.
 
-<!-- ## 📸 Captura de Tela -->
+## 📸 Captura de Tela
 
-<!-- ![Prothera Login](./assets/screenshots/login.png)  -->
+| Imagem de Desktop                                                                                                                 | Imagem Mobile                                                                                                              |
+| --------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| ![Prothera Login](https://raw.githubusercontent.com/Nathan-SWE/prothera-login/refs/heads/main/docs/img/2-page-implementation.png) | ![Prothera Mobile](https://raw.githubusercontent.com/Nathan-SWE/prothera-login/refs/heads/main/docs/img/3-mobile-view.png) |
 
 ## 🎯 Funcionalidades
 
@@ -22,25 +29,25 @@ Este é um projeto de página de login acessível e responsiva para o sistema **
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/nathan-swe/prothera.git
+   git clone https://github.com/Nathan-SWE/prothera-login.git
    ```
 2. Acesse a pasta do projeto:
    ```bash
-   cd prothera
+   cd prothera-login
    ```
 3. Abra o arquivo `index.html` no navegador.
 
 ## 📏 Estrutura de Pastas
 
 ```
-prothera/
+prothera-login/
 │-- assets/
 │   └── css/
 │       └── generalStyles.css
 |-- docs/
 |   └── img/
 |       ├── 1-layout-reference.png
-|       ├── 2-page-implemeentation.png
+|       ├── 2-page-implementation.png
 |       └── 3-mobile-view.png
 │-- index.html
 │-- README.md
@@ -59,3 +66,11 @@ Sinta-se à vontade para contribuir! Basta **forkar** o repositório, criar uma 
 ## 📜 Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
+
+---
+
+## Autor
+
+💡 **Desenvolvido por [Nathan Lima](https://github.com/nathan-swe)**
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nathan-swe) [![LinkedIn](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nathan-swe/)
