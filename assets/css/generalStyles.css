@@ -4,32 +4,132 @@
   box-sizing: border-box;
   border: none;
   text-decoration: none;
+  outline: none;
 }
 
 :root {
   /* color pallet */
   --brand-color: #00b140;
-  --title-color: #023047;
-  --text-default-color: #000;
+  --title-color: #022247;
+  --text-default-color: #8f8e8e;
+  --border-color: #b3afaf;
   --text-btn-color: #fff;
   --focus-color: #b5d8c3;
-  /* --shadowBox-color: #C7C7C7; */
+  --shadow-color: #00000069;
 
   /* font styles */
   --main-font: "Roboto", sans-serif;
 }
 
-html {
+body {
+  min-width: 320px;
   font-family: var(--main-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  .triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 100px solid var(--brand-color);
+    border-right: 100px solid transparent;
+  }
 }
 
 .login-component {
   display: flex;
   flex-flow: column wrap;
-  margin: 20vh auto;
-  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.411);
-  height: 500px;
-  width: 50%;
+  box-shadow: 5px 5px 25px var(--shadow-color);
   border-radius: 8px;
   padding: 1rem;
+}
+
+.login-component_header {
+  text-align: center;
+  margin-top: 1rem;
+
+  h1 {
+    color: var(--title-color);
+    font-size: 3.4rem;
+    letter-spacing: 5px;
+    font-weight: 500;
+  }
+
+  p {
+    margin-top: 1rem;
+    color: var(--text-default-color);
+  }
+
+  span {
+    display: block;
+  }
+}
+
+form {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 45vh;
+
+  a {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+  }
+}
+
+.login-component_inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  label {
+    color: var(--title-color);
+    font-weight: bold;
+  }
+
+  input {
+    margin: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 90%;
+    height: 2.6rem;
+  }
+
+  input:focus {
+    border: 2px solid var(--focus-color);
+  }
+}
+
+.login-component_submit {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid; */
+  margin-bottom: 1rem;
+
+  input[type="submit"] {
+    width: 140px;
+    height: 2.6rem;
+    border-radius: 8px;
+    background-color: var(--brand-color);
+    color: var(--text-btn-color);
+    width: 90%;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:active {
+    transform: scale(0.95);
+    transition: all ease-in-out 0.1s;
+  }
+
+  input[type="submit"]:hover {
+    filter: brightness(1.1);
+  }
 }
